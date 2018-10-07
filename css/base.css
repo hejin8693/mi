@@ -1,0 +1,467 @@
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, img,input,span,textarea,fieldset{
+	padding:0; margin:0;
+}
+a{ text-decoration:none; color:#696969;}
+img { border:none; }
+body { color:#333; font:12px "微软雅黑","Arial Narrow",HELVETICA;}
+input{ outline:none; cursor:pointer;}
+ul li,ol li{ list-style:none;}
+i,em{ font-style:normal;}
+b,strong{ font-weight:normal;}
+
+.border0{border:0;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+.clearfix:after {
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+/*头部开始*/
+header {
+	width: 100%;
+	height: 40px;
+	background: #333;
+}
+
+/*版心*/
+.conpainer {
+	width: 1226px;
+	margin: 0 auto;
+}
+
+/*底部左半部分开始*/
+header .left {
+	height: 40px;
+	float: left;
+}
+header .left li {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 5px;
+}
+header .left li.shu,header .right .shu {
+	color: #424242;
+}
+header .left li a {
+	color: #b0b0b0;
+}
+header .left li a:hover {
+	color: #fff;
+}
+
+/*顶部右半部分开始*/
+header .right {
+	height: 40px;
+	float: right;
+}
+
+header .right li {
+	float: left;
+	height: 40px;
+	padding: 0 5px;
+	line-height: 40px;
+	
+}
+header .right li a {
+	color: #b0b0b0;
+}
+header .right li a:hover {
+	color: #fff;
+}
+header .car {
+	width: 120px;
+	height: 40px;
+	margin-left: 15px;
+	background: #ff6700;
+	text-align: center;
+	line-height: 40px;
+	float: right;
+	position: relative;
+}
+header .car .shopingCar {
+	color: #fff;
+	width: 120px;
+	height: 40px;
+	display: block;
+}
+header .car .shopingCar:hover {
+	background: #fff;
+	color: #ff6700;
+}
+header .car .car-menu {
+	position: absolute;
+	right: 0;
+	top: 40px;
+	width: 316px;
+	height: auto;
+	padding: 15px 0 0;
+	background: #fff;
+	display: none;
+	color: #424242;
+	z-index: 99;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+header .car .car-list {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+header .car .car-list li {
+	display: block;
+	float: none;
+	line-height: 1;
+	height: 80px;
+	padding: 0 20px;
+	position: relative;
+	/*background: deeppink;*/
+}
+
+header .car .car-list li .cart-item {
+	height: 60;
+	padding: 10px 0;
+	line-height: 20px;
+	position: relative;
+	border-top: 1px solid #e0e0e0;
+	overflow: hidden;
+}
+header .car .car-list li:first-child .cart-item{
+	border-top: 0;
+}
+header .car .car-list li .cart-item .thumb {
+	margin-right: 10px;
+	float: left;
+}
+header .car .car-list li .cart-item .thumb img {
+	width: 60px;
+	height: 60px;
+}
+header .car .car-list li .cart-item .name {
+	float: left;
+	width: 95px;
+	height: 40px;
+	margin: 10px 0;
+	overflow: hidden;
+	color: #424242;
+}
+header .car .car-list li .cart-item .price {
+	float: right;
+	margin: 10px 20px 0 5px;
+}
+header .car .car-list li .cart-item .btn-del {
+	display: block;
+	position: absolute;
+	width: 16px;
+	top: 19px;
+	right: 0;
+	color: #b0b0b0;
+	font-size: 14px;
+}
+header .car .car-total {
+	padding: 15px 20px;
+	background: #fafafa;
+	overflow: hidden;
+	text-align: left;
+	line-height: 1;
+} 
+header .car .car-total .total {
+	float: left;
+	width: 135px;
+	color: #757575;
+}
+header .car .car-total .price {
+	display: block;
+	color: #ff6700;
+}
+header .car .car-total .price i {
+	font-size: 24px;
+	line-height: 1;
+}
+header .car .car-total .btn-cart {
+	float: right;
+	width: 130px;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: center;
+	color: #f5f5f5;
+	background: #ff6700;
+}
+/*导航部分开始*/
+.nav {
+	height: 100px;
+	/*background: pink;*/
+	width: 100%;
+	z-index: 9;
+	background: #fff;
+}
+
+/*logo部分*/
+.nav h1 {
+	overflow: hidden;
+	float: left;
+}
+.nav h1 a {
+	display: block;
+	margin-top: 22px;
+	width: 55px;
+	height: 55px;
+	background: #ff6700 url(../images/mi-logo.png) no-repeat center;
+	text-indent: -9999em;
+}
+/*导航部分*/
+.nav .top-nav {
+	float: left;
+	margin-left: 130px;
+	width: 720px;
+	/*background: cornflowerblue;*/
+}
+.nav .top-nav ul {
+	width: 700px;
+	height: 88px;
+	padding: 12px 0 0 20px;
+}
+.nav .top-nav li {
+	float: left;
+	position: relative;
+}
+.nav .top-nav li a {
+	display: block;
+	padding: 26px 10px 38px;
+	color: #333;
+	font-size: 16px;
+}
+/*搜索框开始*/
+.nav .conpainer {
+	overflow: hidden;
+}
+.nav .search {
+	margin-top: 25px;
+	float: right;
+	width: 296px;
+}
+.nav .search input[type =search] {
+	width: 223px;
+	height: 48px;
+	padding: 0 10px;
+	border: 1px solid #e0e0e0;
+	line-height: 48px;
+	font-size: 14px;
+	float: left;
+	outline: 0;
+	transition: all 0.2s;
+}
+.nav .search input[type =submit]{
+	width: 52px;
+	height: 48px;
+	float: left;
+	outline: 0;
+	border: 1px solid #e0e0e0;
+	background: #fff url(../images/zoom.png) no-repeat center;
+}
+.nav .search input[type =submit]:hover {
+	background: #ff6700 url(../images/search.png) no-repeat center;
+}
+
+.nav .navMenu {
+	border-top: 1px solid #e0e0e0;
+	width: 100%;
+	background: #fff;
+	display: none;
+	position: absolute;
+	box-shadow: 0 4px 4px #999;
+	z-index: 100;
+}
+.nav .navMenu li {
+	width: 180px;
+	padding: 35px 11px 0;
+	float: left;
+	text-align: center;
+	/*background: yellow;*/
+}
+.nav .navMenu li img {
+	margin: 0 auto 16px;
+}
+.nav .navMenu li .price {
+	line-height: 20px;
+	color: #ff6700;
+}
+.nav .navMenu li.shu {
+	width: 1px;
+	padding: 0;
+	height: 120px;
+	margin-top: 35px;
+	background: #e0e0e0;
+}
+
+/*底部上半部分start*/
+.footer-top {
+	height: 26px;
+	/*background: pink;*/
+	border-bottom: 1px solid #E0E0E0;
+	padding: 27px 0;
+}
+.footer-top li {
+	height: 26px;
+	/*background: red;*/
+	float: left;
+	padding: 0 58px;
+	line-height: 26px;
+	border-right: 1px solid #E0E0E0;
+}
+.footer-top li a {
+	height: 26px;
+	display: block;
+	background: url(../images/servise.png) no-repeat left;
+	padding-left: 30px;
+}
+.footer-top a:hover {
+	color: #FF7F00;
+}
+.footer-top li.sevenDay a {
+	background: url(../images/sevenDay.png) no-repeat left;
+}
+.footer-top li.free a {
+	background: url(../images/free.png) no-repeat left;
+}
+.footer-top li.mail a {
+	background: url(../images/mail.png) no-repeat left;
+}
+.footer-top li.sales a {
+	background: url(../images/sales.png) no-repeat left;
+}
+.footer-top li.sales {
+	padding: 0 45px;
+	border-right: none;
+}
+/*底部中间部分start*/
+.footer-con {
+	width: 1228px;
+	height: 152px;
+	/*background: deeppink;*/
+	padding-top: 40px;
+}
+.footer-con-left {
+	width: 974px;
+	height: 152px;
+	/*background: red;*/
+	float: left;
+}
+.footer-con-left dl {
+	width: 160px;
+	float: left;
+}
+.footer-con-left dt {
+	font-size: 14px;
+	font-weight: 700px;
+	margin-bottom: 16px;
+}
+.footer-con-left dd {
+	font-size: 12px;
+	height: 28px;
+	line-height: 28px;
+}
+.footer-con-left dd a {
+	color: #757575;
+}
+.footer-con-left dd a:hover {
+	color: #FF7F00;
+}
+.footer-con-tel {
+	width: 250px;
+	height: 112px;
+	border-left: 1px solid #E0E0E0;
+	/*background: greenyellow;*/
+	float: right;
+	text-align: center;
+}
+.footer-con-tel .number {
+	font-size: 18px;
+	color: #FF674F;
+	margin-bottom: 5px;;
+}
+.footer-con-tel .time {
+	font-size: 12px;
+	color: #757575;
+}
+.footer-con-tel input {
+	width: 118px;
+	height: 28px;
+	border: 1px solid #FF6700;
+	background: url(../images/weixin.png) no-repeat 28px center;
+	padding-left: 20px;
+	margin-top: 18px;
+}
+.footer-con-tel input:hover {
+	background-color: #FF674F;
+	color: #fff;
+}
+/*底部下半部分部分start*/
+.footer-btn {
+	height: 166px;
+	background: #FAFAFA;
+}
+.footer-btn .container {
+	height: 126px;
+	text-align: center;
+	padding-top: 40px;
+}
+.footer-btn-top {
+	width: 1228px;
+	height: 57px;
+	/*background: lawngreen;*/
+}
+footer-btn-top-nav li {
+	float: left;
+}
+.footer-btn-top-mi {
+	width: 57px;
+	height: 57px;
+	background: #FF6B00 url(../images/mi-logo.png) no-repeat center;
+	float: left;
+}
+.footer-btn-top-nav {
+	width: 720px;
+	height: 57px;
+	/*background: pink;*/
+	float: left;
+	color: #B0B0B0;
+	font-size: 12px;
+	text-align: left;
+	padding-left: 10px;
+}
+.footer-btn-top-nav .footer-btn-top-nav-t a {
+	color: #757575;
+	padding: 0 2px;
+}
+.footer-btn-top-nav .footer-btn-top-nav-t a:hover {
+	color: #FF6B00;
+}
+.footer-btn-top-nav-b a {
+	color: #B0B0B0;
+}
+.footer-btn-top-nav-b a:hover {
+	color: #FF6B00;
+}
+.footer-btn-top-pic {
+	width: 440px;
+	height: 57px;
+	/*background: deepskyblue;*/
+	float: left;
+}
+.footer-btn-top-pic img {
+	float: left;
+}
+.footer-btn-top-bottom {
+	height: 48px;
+	padding-top: 35px;
+	text-align: center;
+}

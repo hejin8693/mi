@@ -1,0 +1,154 @@
+/*头部开始*/
+.header h1,.layout_panel {
+	width: 1130px;
+	margin: 0 auto;
+}
+h1 a {
+	display: block;
+	height: 88px;
+	width: 200px;
+	background: url(../images/login/login-logo.png) no-repeat center;
+	text-indent: -9999em;
+}
+.banner {
+	height: 588px;
+	background: url(../images/login/login_banner.jpg) no-repeat center;
+}
+/*登录框开始*/
+.banner .layout {
+	width: 410px;
+	height: 524px;
+	font-size: 14px;
+	background: #fff;
+	float: right;
+	margin-top: 30px;
+}
+.banner .layout .nav_tabs_panel .nav-tabs {
+	padding: 27px 0 24px;
+	text-align: center;
+	color: #e0e0e0;
+	font-size: 24px;
+}
+.banner .layout .nav_tabs_panel .nav-tabs a {
+	text-decoration: none;
+	color: #666;
+	cursor: pointer;
+}
+.banner .layout .nav_tabs_panel .nav-tabs a.current {
+	color: #ff6700;
+}
+.banner .layout .nav_tabs_panel .nav-tabs .line {
+	width: 1px;
+	height: 24px;
+	margin: 0 35px 0 42px;
+	border: 1px solid #e0e0e0;
+}
+.banner .layout .nav_tabs_panel .tabs-con {
+	display: block;
+}
+.banner .layout .nav_tabs_panel .tabs-con .login_area{
+	width: 348px;
+	margin: 0 auto;
+	
+}
+.banner .layout .nav_tabs_panel .tabs-con .login_area input {
+	width: 306px;
+	height: 22px;
+	line-height: 22px;
+	padding: 13px 16px 13px 14px;
+	display: block;
+	border: 0 none;
+	outline: 0;
+	border: 1px solid #e0e0e0;
+	margin-bottom: 14px;
+}
+.banner .layout .nav_tabs_panel .tabs-con .login_area input[type=submit]{
+	width: 338px;
+	padding: 0;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #e0e0e0;
+	margin-bottom: 14px;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #fff;
+	background: #ef5b00;
+}
+.banner .layout .nav_tabs_panel .tabs-con .login_area .sms_link {
+	float: left;
+	color: #ef5b00;
+	
+}
+.banner .layout .nav_tabs_panel .tabs-con .login_area .reverse {
+	float: right;
+}
+.banner .layout .nav_tabs_panel .tabs-con .login_area .reverse a:hover {
+	color: #ef5b00;
+}
+.banner .layout .nav_tabs_panel .tabs-con .login_area .title {
+	margin-top: 100px;
+	border-top: 1px solid #e0e0e0;
+	position: relative;
+}
+.banner .layout .nav_tabs_panel .tabs-con .login_area .title span {
+	background: #fff;
+	position: absolute;
+	top: -11px;
+	left: 37%;
+	padding:0 5px;
+	color: #bbb;
+}
+.banner .layout .nav_tabs_panel .tabs-con .login_area .type {
+	padding-top: 13px;
+	text-align: center;
+}
+.banner .layout .nav_tabs_panel .tabs-con .login_area .type a{
+	display: inline-block;
+	widows: 30px;
+	height: 30px;
+	margin: 0 17px;
+	/*background: #0288d1;*/
+	color: #0288d1;
+	font-size: 30px
+}
+.banner .layout .nav_tabs_panel .tabs-con .login_area .type .weibo{
+	color: #d32f2f;
+}
+.banner .layout .nav_tabs_panel .tabs-con .login_area .type .zhifubao{
+	color: #0ae;
+}
+.banner .layout .nav_tabs_panel .tabs-con .login_area .type .weixin{
+	color: #00d20d;
+}
+.banner .layout .nav_tabs_panel .login-code {
+	text-align: center;
+	display: none;
+}
+.banner .layout .nav_tabs_panel .login-code .saoma {
+	width: 180px;
+	height: 180px;
+	margin: 80px auto 20px;
+}
+.banner .layout .nav_tabs_panel .login-code span {
+	padding: 0 5px;
+	color: #ff6700;
+}
+/*底部开始*/
+.footer {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 14px;
+}
+.footer a {
+	padding: 0 10px;
+	color: #757575;
+}
+.footer a:hover {
+	padding: 0 10px;
+	color: #333;
+}
+.footer .bd {
+	padding: 10px 0;
+	color: #757575;
+}

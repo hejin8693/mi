@@ -1,0 +1,116 @@
+body {
+	background: #f9f9f9;
+}
+.layout {
+	width: 786px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	height: 600px;
+	background: #fff;
+	padding: 0 34px 30px;
+}
+.layout h1 {
+	padding-bottom: 40px;
+}
+.layout h1 a {
+	width: 49px;
+	height: 48px;
+	margin: 0 auto;
+	display: block;
+	cursor: default;
+	background-image: url(../images/register/milogo.png);
+}
+.layout h4 {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #333;
+	text-align: center;
+}
+.layout .regbox {
+	width: 332px;
+	padding: 30px 0;
+	line-height: 20px;
+	color: #666;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.layout .regbox h5 {
+	padding-bottom: 5px;
+	color: #333;
+	font-weight: normal;
+	font-size: 14px;
+}
+.layout .regbox .listwrap {
+	height: 40px;
+	padding-left: 14px;
+	line-height: 40px;
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #e8e8e8;
+	color: #555;
+	cursor: pointer;
+}
+.layout .regbox .listwrap p {
+	float: left;
+	width: 275px;
+	border-right: 1px solid #e8e8e8;
+	cursor: pointer;
+	font-size: 14px;
+}
+.layout .regbox .listwrap i {
+	float: right;
+	width: 16px;
+	height: 16px;
+	margin: 11px 12px 0 12px;
+	background: url(../images/register/icon_user.png);
+}
+.layout .regbox .region_tip_text {
+	margin-top: 5px;
+	margin-bottom: 15px;
+	
+	line-height: 20px;
+	font-size: 14px;
+}
+.layout .regbox .listwrap_inside_panel {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.layout .regbox .listwrap_inside_panel .listwrap {
+	float: left;
+	padding-bottom: 15px;
+	width: 54px;
+	padding: 0 9px;
+	text-align: center;
+	border: 1px solid #e8e8e8;
+	color: #555;
+	font-size: 14px;
+}
+.layout .regbox .listwrap_inside_panel input[type=text] {
+	float: right;
+	width: 236px;
+	
+	outline: none;
+	border: 1px solid #e8e8e8;
+	height: auto;
+	padding: 12px 10px;
+	/*padding-bottom: 15px;*/
+}
+.layout .regbox .phone_step1 input[type=submit] {
+	background: #FF6700;
+	border: 1px solid rgba(186,186,186,0.3);
+	color: #fff;
+	width: 330px;
+	height: 42px;
+	margin: 0 auto;
+	line-height: 42px;
+	font-size: 14px;
+}
+#uname,#pwd {
+	margin-bottom: 20px;
+	height: 40px;
+	width: 267px;
+	padding-left: 5px;
+	border: 1px solid rgba(186,186,186,0.3);
+	color: #333;
+}

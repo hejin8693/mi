@@ -1,0 +1,162 @@
+/*底部上半部分start*/
+.footer-top {
+	height: 26px;
+	/*background: pink;*/
+	border-bottom: 1px solid #E0E0E0;
+	padding: 27px 0;
+}
+.footer-top li {
+	height: 26px;
+	/*background: red;*/
+	float: left;
+	padding: 0 58px;
+	line-height: 26px;
+	border-right: 1px solid #E0E0E0;
+}
+.footer-top li a {
+	height: 26px;
+	display: block;
+	background: url(../images/servise.png) no-repeat left;
+	padding-left: 30px;
+}
+.footer-top a:hover {
+	color: #FF7F00;
+}
+.footer-top li.sevenDay a {
+	background: url(../images/sevenDay.png) no-repeat left;
+}
+.footer-top li.free a {
+	background: url(../images/free.png) no-repeat left;
+}
+.footer-top li.mail a {
+	background: url(../images/mail.png) no-repeat left;
+}
+.footer-top li.sales a {
+	background: url(../images/sales.png) no-repeat left;
+}
+.footer-top li.sales {
+	padding: 0 45px;
+	border-right: none;
+}
+/*底部中间部分start*/
+.footer-con {
+	width: 1228px;
+	height: 152px;
+	/*background: deeppink;*/
+	padding-top: 40px;
+}
+.footer-con-left {
+	width: 974px;
+	height: 152px;
+	/*background: red;*/
+	float: left;
+}
+.footer-con-left dl {
+	width: 160px;
+	float: left;
+}
+.footer-con-left dt {
+	font-size: 14px;
+	font-weight: 700px;
+	margin-bottom: 16px;
+}
+.footer-con-left dd {
+	font-size: 12px;
+	height: 28px;
+	line-height: 28px;
+}
+.footer-con-left dd a {
+	color: #757575;
+}
+.footer-con-left dd a:hover {
+	color: #FF7F00;
+}
+.footer-con-tel {
+	width: 250px;
+	height: 112px;
+	border-left: 1px solid #E0E0E0;
+	/*background: greenyellow;*/
+	float: right;
+	text-align: center;
+}
+.footer-con-tel .number {
+	font-size: 18px;
+	color: #FF674F;
+	margin-bottom: 5px;;
+}
+.footer-con-tel .time {
+	font-size: 12px;
+	color: #757575;
+}
+.footer-con-tel input {
+	width: 118px;
+	height: 28px;
+	border: 1px solid #FF6700;
+	background: url(../images/weixin.png) no-repeat 28px center;
+	padding-left: 20px;
+	margin-top: 18px;
+}
+.footer-con-tel input:hover {
+	background-color: #FF674F;
+	color: #fff;
+}
+/*底部下半部分部分start*/
+.footer-btn {
+	height: 166px;
+	background: #FAFAFA;
+}
+.footer-btn .container {
+	height: 126px;
+	text-align: center;
+	padding-top: 40px;
+}
+.footer-btn-top {
+	width: 1228px;
+	height: 57px;
+	/*background: lawngreen;*/
+}
+footer-btn-top-nav li {
+	float: left;
+}
+.footer-btn-top-mi {
+	width: 57px;
+	height: 57px;
+	background: #FF6B00 url(../images/mi-logo.png) no-repeat center;
+	float: left;
+}
+.footer-btn-top-nav {
+	width: 720px;
+	height: 57px;
+	/*background: pink;*/
+	float: left;
+	color: #B0B0B0;
+	font-size: 12px;
+	text-align: left;
+	padding-left: 10px;
+}
+.footer-btn-top-nav .footer-btn-top-nav-t a {
+	color: #757575;
+	padding: 0 2px;
+}
+.footer-btn-top-nav .footer-btn-top-nav-t a:hover {
+	color: #FF6B00;
+}
+.footer-btn-top-nav-b a {
+	color: #B0B0B0;
+}
+.footer-btn-top-nav-b a:hover {
+	color: #FF6B00;
+}
+.footer-btn-top-pic {
+	width: 440px;
+	height: 57px;
+	/*background: deepskyblue;*/
+	float: left;
+}
+.footer-btn-top-pic img {
+	float: left;
+}
+.footer-btn-top-bottom {
+	height: 48px;
+	padding-top: 35px;
+}

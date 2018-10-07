@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>仿小米商城</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/icofont/iconfont.css"/>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/base.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/public.js"></script>
+	</head>
+	<body>
+		<!--头部开始-->
+		<header>
+			<div class="conpainer">
+				<div class="left">
+					<ul>
+						<li><a href="">小米商城</a></li>
+						<li class="shu">|</li>
+						<li><a href="">MIUI</a></li>
+						<li class="shu">|</li>
+						<li><a href="">IoT</a></li>
+						<li class="shu">|</li>
+						<li><a href="">云服务</a></li>
+						<li class="shu">|</li>
+						<li><a href="">金融</a></li>
+						<li class="shu">|</li>
+						<li><a href="">有品</a></li>
+						<li class="shu">|</li>
+						<li><a href="">小爱开放平台</a></li>
+						<li class="shu">|</li>
+						<li><a href="">政企服务</a></li>
+						<li class="shu">|</li>
+						<li><a href="">Select Region</a></li>
+					</ul>
+				</div>
+				<div class="right">
+					<div class="fl">
+						<ul>
+							<li><a href="login.html" id="login">登录</a></li>
+							<li class="shu">|</li>
+							<li><a href="register.html" id="register">注册</a></li>
+							<li class="shu">|</li>
+							<li><a href="">消息通知</a></li>
+						</ul>
+					</div>
+					<div class="car">
+						<!--购物车-->
+						<a href="" class="shopingCar">
+							<i class="iconfont icon-gouwuche"></i>
+							购物车
+							<span class="car-num">(2)</span>
+						</a>
+						<div class="car-menu">
+							<ul class="car-list">
+								<!--<li>
+									<div class="cart-item">
+										<a href="" class="thumb"><img src="images/car/cart-item.png" alt="" /></a>
+										<a href="" class="name">小米8 屏幕指纹版 8GB内存 暮光金 128GB</a>
+										<span class="price">3599元 × 1</span>
+										<a href="" class="btn-del">x</a>
+									</div>
+								</li>-->
+								
+							</ul>
+							<div class="car-total">
+								<span class="total">
+									共
+									<i>2</i>
+									件商品
+									<span class="price">
+										<i>5298</i>
+										元
+									</span>
+								</span>
+								<a href="" class="btn-cart">去购物车结算</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--导航栏开始-->
+		<div class="nav">
+			<div class="conpainer">
+				<h1 class="logo">
+					<a href="index.html" title="小米官网">小米官网</a>
+				</h1>
+				<div class="top-nav">
+					<ul>
+						<li><a href="">小米手机</a></li>
+						<li><a href="">红米</a></li>
+						<li><a href="">电视</a></li>
+						<li><a href="">笔记本</a></li>
+						<li><a href="">空调</a></li>
+						<li><a href="">新品</a></li>
+						<li><a href="">路由器</a></li>
+						<li><a href="">智能硬件</a></li>
+						<li><a href="">服务</a></li>
+						<li><a href="">社区</a></li>
+					</ul>
+				</div>
+				<div class="search">
+					<form action="" method="post">
+						<input type="search" id="seach" name="keyword"/>
+						<input type="submit" value=""/>
+					</form>
+				</div>
+			</div>
+			<div class="navMenu">
+				<div class="conpainer">
+					<ul>
+						<!--<li class="mi8">
+							<div><a href=""><img src="images/qingchun-320.png" alt="" width=160/></a></div>
+							<p><a href="">小米8 青春版</a></p>
+							<p class="price">1399元起</p>
+						</li>
+						<li class="shu"></li>-->
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--轮播开始-->
+		<div class="side conpainer">
+			<!--轮播图片-->
+			<ul class="img">
+				<li><a href=""><img src="images/slid1.jpg" alt="" /></a></li>
+				<li><a href=""><img src="images/slid2.jpg" alt="" /></a></li>
+				<li><a href=""><img src="images/slid3.jpg" alt="" /></a></li>
+				<li><a href=""><img src="images/slid4.jpg" alt="" /></a></li>
+				<li><a href=""><img src="images/slid5.jpg" alt="" /></a></li>
+				<li><a href=""><img src="images/slid1.jpg" alt="" /></a></li>
+			</ul>
+			<!--左右箭头-->
+			<div class="arrow">
+				<div class="arr-left" onselectstart="return false"><</div>
+				<div class="arr-right" onselectstart="return false">></div>
+			</div>
+			<!--小圆点-->
+			<ol class="ol">
+				<li class="current"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ol>
+			<!--左侧栏开始-->
+			<div class="category">
+				<ul>
+					<li>
+						<a href="">手机 电话卡<i>></i></a>
+						<div></div>
+					</li>
+					<li>
+						<a href="">电视 盒子<i>></i></a>
+						<div></div>
+					</li>
+					<li>
+						<a href="">笔记本 平板<i>></i></a>
+						<div></div>
+					</li>
+					<li>
+						<a href="">家电 插线板<i>></i></a>
+						<div></div>
+					</li>
+					<li>
+						<a href="">出行 穿戴<i>></i></a>
+						<div></div>
+					</li>
+					<li>
+						<a href="">智能 路由器<i>></i></a>
+						<div></div>
+					</li>
+					<li>
+						<a href="">电源 配件<i>></i></a>
+						<div></div>
+					</li>
+					<li>
+						<a href="">健康 儿童<i>></i></a>
+						<div></div>
+					</li>
+					<li>
+						<a href="">耳机 音箱<i>></i></a>
+						<div></div>
+					</li>
+					<li>
+						<a href="">生活 箱包<i>></i></a>
+						<div></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--sub开始-->
+		<div class="sub conpainer">
+			<!--左侧信息部分开始-->
+			<div class="msg">
+				<a href="">
+					<p class="iconfont icon-tubiao- "></p>
+					<p>选购手机</p>
+				</a>
+				<div class="shu"></div>
+				<a href="">
+					<p class="iconfont icon-tuangou-copy "></p>
+					<p>企业团购</p>
+				</a>
+				<div class="shu"></div>
+				<a href="">
+					<p class="iconfont icon-Fma "></p>
+					<p>F码通道</p>
+				</a>
+				<a href="" class="bt">
+					<p class="iconfont icon-shoujiqia "></p>
+					<p>不限量卡</p>
+				</a>
+				<div class="shu"></div>
+				<a href="" class="bt">
+					<p class="iconfont icon-yijiuhuanxin "></p>
+					<p>以旧换新</p>
+				</a>
+				<div class="shu"></div>
+				<a href="" class="bt">
+					<p class="iconfont icon-shoujiqia "></p>
+					<p>话费充值</p>
+				</a>
+				
+			</div>
+			<!--右侧homePro开始-->
+			<ul>
+				<li><a href=""><img src="images/home1.jpg" alt="" /></a></li>
+				<li><a href=""><img src="images/home2.jpg" alt="" /></a></li>
+				<li><a href=""><img src="images/home3.jpg" alt="" /></a></li>
+			</ul>
+		</div>
+		<!--闪购-->		
+		<div class="flashover conpainer">
+			<div class="hd">
+				<h2>小米闪购</h2>
+				<div class="more">
+					<a class="end" onselectstart="return false"><</a>
+					<a onselectstart="return false">></a>
+				</div>
+			</div>
+			<div class="bd">
+				<div class="time">
+					<div class="timeNum">20:00 场</div>
+					<img src="images/time/flashpurchase.png" alt="" />
+					<p>距离结束还有</p>
+					<div class="timeDetail">
+						<span class="hour">00</span>
+						<i>:</i>
+						<span class="minute">00</span>
+						<i>:</i>
+						<span class="second">00</span>
+					</div>
+				</div>
+				<div class="wrapper" id="wrapper">
+					<ul>
+						<li>
+							<a href="">
+								<img src="images/flashover/flashover1.jpg" alt="" width="160px"/>
+								<p>最生活毛巾·Air（十条装）白色</p>
+								<p>超值家庭装 清柔速干</p>
+								<p><span class="price">69</span>&nbsp;<span class="yuan">元</span>&nbsp;&nbsp;<del>169元</del></p>
+							</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--小米8广告开始-->
+		<div class="mi8 conpainer">
+			<a href=""><img src="images/mi8/mi8banner.jpg" alt="" width="1226"/></a>
+		</div>
+		<!--main开始-->
+		<div class="main">
+			<div class="conpainer">
+				<!--手机开始-->
+				<div class="phone" id="miPhone">
+					<div class="phone-hd">
+						<h2 class="title">手机</h2>
+						<div class="more">
+							<a href="">
+								<span>查看全部</span>
+								<div>></div></a>
+						</div>
+					</div>
+					<div class="phone-bd">
+						<div class="left">
+							<a href=""><img src="images/mi8/Max3.jpg" alt="" width="100%" height="614"/></a>
+						</div>
+						<div class="right">
+							<ul>
+								<li>
+									<div class="figure-img">
+										<a href=""><img src="images/phone/phone1.jpg" alt="" width="160"/></a>
+									</div>
+									<p><a href="">小米8 青春版 4GB+64GB</a></p>
+									<p>潮流镜面渐变色，2400万自拍旗舰</p>
+									<p><span>1399</span>元<i></i></p>
+									<div class="flag-new">新品</div>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--家电广告开始-->
+			<div class="homeEle conpainer">
+				<a href=""><img src="images/homeBanner/homeBanner.jpg" alt="" width="1226"/></a>
+			</div>
+			<!--配件开始-->
+			<div class="phone conpainer home">
+					<div class="phone-hd">
+						<h2 class="title">配件</h2>
+						<div class="more">
+							<a href="" class="current">热门</a></li>
+							<a href="">保护套</a>
+							<a href="">电脑</a>
+							<a href="">家居</a>
+						</div>
+					</div>
+					<div class="phone-bd">
+						<div class="left">
+							<ul>
+								<li><a href=""><img src="images/homeBanner/ele1.jpg" alt="" width="234"/></a></li>
+								<li><a href=""><img src="images/homeBanner/ele2.jpg" alt="" width="234"/></a></li>
+							</ul>
+						</div>
+						<div class="right">
+							<ul class="selected">
+								<li>
+									<div class="figure-img">
+										<a href=""><img src="images/mi8/phone1.jpg" alt="" width="160"/></a>
+									</div>
+									<p><a href="">小米8 青春版 4GB+64GB</a></p>
+									<p>潮流镜面渐变色，2400万自拍旗舰</p>
+									<p><span>1399</span>元<i></i></p>
+									<div class="flag-new">新品</div>
+									<div class="review-wrapper">
+										<a href="">
+											<span class="review">厚重的机身，舒适按键，一直钟爱米家</span>
+											<span class="author"> 来自于 charry 的评价 </span>
+										</a>
+									</div>
+								</li>
+								
+								<!--<li>
+									<div class="figure">
+										<a href=""><img src="images/mi8/figure-img.jpg" alt="" /></a>
+									</div>
+									<h3><a href="">Mi MIX 2S 真皮保护套</a></h3>
+									<p class="price">
+										<span class="num">99</span>元
+									</p>
+								</li>
+								<li>
+									<div class="figure">
+										<a href="">→</a>
+									</div>
+									<h3><a href="">浏览更多</a></h3>
+									<p class="price">
+										热门
+									</p>
+								</li>-->
+							</ul>
+							<ul>
+								<li>
+									<div class="figure-img">
+										<a href=""><img src="images/mi8/phone1.jpg" alt="" width="160"/></a>
+									</div>
+									<p><a href="">小米8 青春版 4GB+64GB</a></p>
+									<p>潮流镜面渐变色，2400万自拍旗舰</p>
+									<p><span>1399</span>元<i></i></p>
+									<div class="flag-new">新品</div>
+									<div class="review-wrapper">
+										<a href="">
+											<span class="review">厚重的机身，舒适按键，一直钟爱米家</span>
+											<span class="author"> 来自于 charry 的评价 </span>
+										</a>
+									</div>
+								</li>
+								<!--<li>
+									2
+								</li>
+								<li>
+									2
+								</li>-->
+							</ul>
+							<ul>
+								<li>
+									<div class="figure-img">
+										<a href=""><img src="images/mi8/phone1.jpg" alt="" width="160"/></a>
+									</div>
+									<p><a href="">小米8 青春版 4GB+64GB</a></p>
+									<p>潮流镜面渐变色，2400万自拍旗舰</p>
+									<p><span>1399</span>元<i></i></p>
+									<div class="flag-new">新品</div>
+									<div class="review-wrapper">
+										<a href="">
+											<span class="review">厚重的机身，舒适按键，一直钟爱米家</span>
+											<span class="author"> 来自于 charry 的评价 </span>
+										</a>
+									</div>
+								</li>
+								<!--<li>
+									3
+								</li>
+								<li>
+									3
+								</li>-->
+							</ul>
+							<ul>
+								<li>
+									<div class="figure-img">
+										<a href=""><img src="images/mi8/phone1.jpg" alt="" width="160"/></a>
+									</div>
+									<p><a href="">小米8 青春版 4GB+64GB</a></p>
+									<p>潮流镜面渐变色，2400万自拍旗舰</p>
+									<p><span>1399</span>元<i></i></p>
+									<div class="flag-new">新品</div>
+									<div class="review-wrapper">
+										<a href="">
+											<span class="review">厚重的机身，舒适按键，一直钟爱米家</span>
+											<span class="author"> 来自于 charry 的评价 </span>
+										</a>
+									</div>
+								</li><!--
+								<li>
+									4
+								</li>
+								<li>
+									4
+								</li>-->
+							</ul>
+						</div>
+					</div>
+				</div>
+		</div>
+		
+		
+		
+		
+		
+		<!--底部开始-->
+		<!--底部上半部分start-->
+		<div class="footer-top conpainer">
+			<ul>
+				<li class="servise">
+					<a href="">预约维修服务</a>
+				</li>
+				<li class="sevenDay">
+					<a href="">7天无理由退货</a>
+				</li>
+				<li class="free">
+					<a href="">15天免费换货</a>
+				</li>
+				<li class="mail">
+					<a href="">满150元包邮</a>
+				</li>
+				<li class="sales">
+					<a href="">520余家售后网点</a>
+				</li>
+			</ul>
+		</div>
+		<!--底部中间部分start-->
+		<div class="footer-con conpainer">
+			<div class="footer-con-left">
+				<dl class="help">
+					<dt>帮助中心</dt>
+					<dd>
+						<a href="">账户管理</a>
+					</dd>
+					<dd>
+						<a href="">购物指南</a>
+					</dd>
+					<dd>
+						<a href="">订单操作</a>
+					</dd>
+				</dl>
+				<dl class="help">
+					<dt>服务支持</dt>
+					<dd>
+						<a href="">售后政策</a>
+					</dd>
+					<dd>
+						<a href="">自助服务</a>
+					</dd>
+					<dd>
+						<a href="">相关下载</a>
+					</dd>
+				</dl>
+				<dl class="help">
+					<dt>线下门店</dt>
+					<dd>
+						<a href="">小米之家</a>
+					</dd>
+					<dd>
+						<a href="">服务网点</a>
+					</dd>
+					<dd>
+						<a href="">授权体验店</a>
+					</dd>
+				</dl>
+				<dl class="help">
+					<dt>关于小米</dt>
+					<dd>
+						<a href="">了解小米</a>
+					</dd>
+					<dd>
+						<a href="">加入小米</a>
+					</dd>
+					<dd>
+						<a href="">投资者关系</a>
+					</dd>
+				</dl>
+				<dl class="help">
+					<dt>关注我们</dt>
+					<dd>
+						<a href="">新浪微博</a>
+					</dd>
+					<dd>
+						<a href="">官方微信</a>
+					</dd>
+					<dd>
+						<a href="">联系我们</a>
+					</dd>
+				</dl>
+				<dl class="help">
+					<dt>特色服务</dt>
+					<dd>
+						<a href="">F 码通道</a>
+					</dd>
+					<dd>
+						<a href="">礼物码</a>
+					</dd>
+					<dd>
+						<a href="">防伪查询</a>
+					</dd>
+				</dl>
+			</div>
+			<div class="footer-con-tel">
+				<p class="number">400-100-5678</p>
+				<p class="time">周一至周日 8:00-18:00<br/>（仅收市话费）</p>
+				<input type="button"  value="联系客服"/>
+			</div>
+		</div>
+		<!--底部下半部分部分start-->
+		<div class="footer-btn">
+			<div class="conpainer">
+				<div class="footer-btn-top">
+					<div class="footer-btn-top-mi">
+					</div>
+					<div class="footer-btn-top-nav">
+						<div class="footer-btn-top-nav-t">
+							<a href="">小米商城</a>|
+							<a href="">MIUI</a>|
+							<a href="">米家</a>|
+							<a href="">米聊</a>|
+							<a href="">多看</a>|
+							<a href="">游戏</a>|
+							<a href="">路由器</a>|
+							<a href="">米粉卡</a>|
+							<a href="">政企服务</a>|
+							<a href="">小米天猫店</a>|
+							<a href="">隐私政策</a>|
+							<a href="">问题反馈</a>|
+							<a href="">廉政举报</a>|
+							<a href="">Select Region</a>
+						</div>
+						<p class="footer-btn-top-nav-b">
+							<a href="">©mi.com</a>京ICP证110507号
+							<a href="">京ICP备10046444号</a>
+							<a href="">京公网安备11010802020134号</a>
+							<a href="">京网文[2017]1530-131号</a>
+						</p>
+						<p>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+						
+					</div>
+					<div class="footer-btn-top-pic">
+						<a href=""><img src="images/truste.png" alt="" width="83"/></a>
+						<a href=""><img src="images/v-logo-2.png" alt="" /></a>
+						<a href=""><img src="images/v-logo-1.png" alt="" /></a>
+						<a href=""><img src="images/v-logo-3.png" alt="" /></a>
+						<a href=""><img src="images/consume.png" alt="" /></a>
+					</div>
+				</div>
+				<div class="footer-btn-top-bottom">
+					<img src="images/slogan.png" alt="" />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
